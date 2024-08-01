@@ -1,0 +1,43 @@
+/* App.css */
+
+/* Basic styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    th, td {
+      display: block;
+      width: 100%;
+    }
+  
+    th {
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+  }
+  
+  /* Optional: Style the image */
+  td img {
+    border-radius: 50%;
+  }
